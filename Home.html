@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics Assignment</title>
+    <link rel="stylesheet" href="/Home.css">
+
+    <!-- Internal CSS -->
+    <style>
+        /* Part 1: Element Selector - Change font size for all headings */
+        h1, h2, h3 {
+            font-size: 24px;
+        }
+
+        /* Part 1: Class Selector - Apply background color to sections */
+        .highlight {
+            background-color: lightblue;
+            padding: 10px;
+        }
+
+        /* Part 1: ID Selector - Add border to unique element */
+        #unique {
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+        /* Part 2: Inline CSS for body background color */
+        body {
+            background-color: lightyellow;
+        }
+
+        /* Part 3: Basic Styling - Text color, background color, font family, and alignment */
+        p {
+            text-align: justify;
+            margin: 20px;
+            color: darkslategray;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Part 3: Card Component Styling */
+        .card {
+            background-color: lightgray;
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+
+        /* Part 2: External CSS - Styling links */
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Welcome to My Webpage</h1>
+
+    <p>This is a simple webpage with different CSS styling techniques. Explore the styles applied through element, class, and ID selectors.</p>
+
+    <!-- Inline styling applied here directly to change text color -->
+    <p style="color: darkblue;">This paragraph has inline CSS applied to change the text color.</p>
+
+    <!-- Class Selector - Styled background for this section -->
+    <div class="highlight">
+        <p>This section has a highlighted background using class selector.</p>
+    </div>
+
+    <!-- ID Selector - Styled border for this section -->
+    <div id="unique">
+        <p>This section has a unique border using ID selector.</p>
+    </div>
+
+    <!-- Card component example -->
+    <div class="card">
+        <h2>Card Title</h2>
+        <p>This is a simple card component that includes a heading, description, padding inside, and a margin around it.</p>
+    </div>
+
+    <a href="#">Click here to learn more!</a>
+
+</body>
+</html>

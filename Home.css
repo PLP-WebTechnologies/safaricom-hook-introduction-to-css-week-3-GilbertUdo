@@ -1,0 +1,48 @@
+/* Part 1: Element Selector - Change font size for all headings */
+h1, h2, h3 {
+    font-size: 24px;
+}
+
+/* Part 1: Class Selector - Apply background color to sections */
+.highlight {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+/* Part 1: ID Selector - Add border to unique element */
+#unique {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+/* Part 2: Body Background Color (via external CSS) */
+body {
+    background-color: lightyellow;
+}
+
+/* Part 3: Basic Styling - Text color, background color, font family, and alignment */
+p {
+    text-align: justify;
+    margin: 20px;
+    color: darkslategray;
+    font-family: Arial, sans-serif;
+}
+
+/* Part 3: Card Component Styling */
+.card {
+    background-color: lightgray;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Part 2: External CSS - Styling links */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
